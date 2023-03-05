@@ -23,7 +23,7 @@ class GameScene: SKScene
         
         // add the second ocean to the scene
         ocean2 = Ocean()
-        ocean2?.position.y = -627
+        ocean2?.position.x = 0
         addChild(ocean2!)
         
         // add the player to the Scene
