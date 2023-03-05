@@ -70,18 +70,18 @@ class GameScene: SKScene
     
     func touchDown(atPoint pos : CGPoint)
     {
-        player?.TouchMove(newPos: CGPoint(x: -300, y: pos.y))
+        player?.TouchMove(newPos: CGPoint(x: -300, y: pos.y)) // the position of the player at x-axis is fixed on the left side
     }
     
     func touchMoved(toPoint pos : CGPoint)
     {
-        player?.TouchMove(newPos: CGPoint(x: -300, y: pos.y))
+        player?.TouchMove(newPos: CGPoint(x: -300, y: pos.y)) // the position of the player at x-axis is fixed on the left side
         
     }
     
     func touchUp(atPoint pos : CGPoint)
     {
-        player?.TouchMove(newPos: CGPoint(x: -300, y: pos.y))
+        player?.TouchMove(newPos: CGPoint(x: -300, y: pos.y)) // the position of the player at x-axis is fixed on the left side
         
     }
     

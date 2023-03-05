@@ -1,3 +1,12 @@
+//
+//  GameViewController.swift
+//  Mail Pilot Game
+//  Author: Chun Fung Suen
+//  Student ID: 301277969
+//  Date: 05 MAR 2023
+//  Version: 1.0
+//
+
 import UIKit
 import SpriteKit
 import GameplayKit

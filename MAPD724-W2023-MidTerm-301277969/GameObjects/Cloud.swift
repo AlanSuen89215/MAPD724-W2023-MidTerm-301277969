@@ -31,6 +31,7 @@ class Cloud : GameObject
     
     override func CheckBounds()
     {
+        // reset the cloud when it leave the left side
         if(position.x <= -580)
         {
             Reset()

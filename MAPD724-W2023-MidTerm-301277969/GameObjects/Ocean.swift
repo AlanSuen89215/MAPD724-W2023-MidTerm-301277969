@@ -29,6 +29,7 @@ class Ocean : GameObject
     
     override func CheckBounds()
     {
+        // reset when the ocean leave the left side
         if(position.x <= -1200)
         {
             Reset()
@@ -37,6 +38,7 @@ class Ocean : GameObject
     
     override func Reset()
     {
+        // reset the ocean at the right side
         position.x = 1200
     }
     

@@ -31,6 +31,7 @@ class Island : GameObject
     
     override func CheckBounds()
     {
+        // reset when the island leave the left side
         if(position.x <= -450)
         {
             Reset()
@@ -39,9 +40,11 @@ class Island : GameObject
     
     override func Reset()
     {
+        // reset the island at the right side
         position.x = 876
         // get a pseudo random number
         let randomY:Int = (randomSource?.nextInt(upperBound: 80))! - 140
+        // set the island at a random position on Y-axis
         position.y = CGFloat(randomY)
         isColliding = false
     }
