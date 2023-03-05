@@ -98,6 +98,25 @@ Mail Pilot</string>
                             <constraint firstItem="VxX-nt-gIZ" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="330" id="srT-au-sXC"/>
                             <constraint firstItem="6m0-4P-0lY" firstAttribute="top" secondItem="5lm-X3-RjI" secondAttribute="top" id="zRl-57-ivR"/>
                         </constraints>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="0DY-Sf-E8f"/>
+                                <include reference="IW2-6x-Jbu"/>
+                                <include reference="eYf-ah-HC7"/>
+                                <include reference="zRl-57-ivR"/>
+                                <include reference="4Ix-wI-AX9"/>
+                                <include reference="KQK-Ef-iKf"/>
+                                <include reference="btR-tJ-Szk"/>
+                                <include reference="k5j-wy-7OR"/>
+                                <include reference="Vxc-Ig-E5g"/>
+                                <include reference="qz6-Z2-MAN"/>
+                                <include reference="r1V-YJ-9DS"/>
+                                <include reference="U3F-K2-gjH"/>
+                                <include reference="fqm-2f-BSK"/>
+                                <include reference="0lG-lU-0Sh"/>
+                                <include reference="srT-au-sXC"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="EndLabel" destination="6m0-4P-0lY" id="W0x-Bq-fzt"/>
