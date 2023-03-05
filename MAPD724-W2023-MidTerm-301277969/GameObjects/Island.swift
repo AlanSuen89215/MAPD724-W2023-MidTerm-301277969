@@ -31,7 +31,7 @@ class Island : GameObject
     
     override func CheckBounds()
     {
-        if(position.x <= -876)
+        if(position.x <= -450)
         {
             Reset()
         }

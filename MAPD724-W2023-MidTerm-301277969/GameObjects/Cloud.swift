@@ -31,7 +31,7 @@ class Cloud : GameObject
     
     override func CheckBounds()
     {
-        if(position.x <= -902)
+        if(position.x <= -580)
         {
             Reset()
         }
