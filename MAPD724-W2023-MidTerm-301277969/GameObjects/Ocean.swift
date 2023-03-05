@@ -18,6 +18,7 @@ class Ocean : GameObject
     {
         zPosition = Layer.ocean.rawValue
         verticalSpeed = 5.0
+        horizontalSpeed = 5.0
     }
     
     override func Update()
@@ -28,7 +29,7 @@ class Ocean : GameObject
     
     override func CheckBounds()
     {
-        if(position.y <= -2253)
+        if(position.x <= -1200)
         {
             Reset()
         }
@@ -36,11 +37,11 @@ class Ocean : GameObject
     
     override func Reset()
     {
-        position.y = 2253
+        position.x = 1200
     }
     
     func Move()
     {
-        position.y -= verticalSpeed!
+        position.x -= horizontalSpeed!
     }
 }
