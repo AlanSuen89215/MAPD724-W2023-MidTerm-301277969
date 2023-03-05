@@ -70,18 +70,18 @@ class GameScene: SKScene
     
     func touchDown(atPoint pos : CGPoint)
     {
-        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -640))
+        player?.TouchMove(newPos: CGPoint(x: -300, y: pos.y))
     }
     
     func touchMoved(toPoint pos : CGPoint)
     {
-        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -640))
+        player?.TouchMove(newPos: CGPoint(x: -300, y: pos.y))
         
     }
     
     func touchUp(atPoint pos : CGPoint)
     {
-        player?.TouchMove(newPos: CGPoint(x: pos.x, y: -640))
+        player?.TouchMove(newPos: CGPoint(x: -300, y: pos.y))
         
     }
     

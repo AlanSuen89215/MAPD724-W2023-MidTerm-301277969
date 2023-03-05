@@ -41,7 +41,7 @@ class Island : GameObject
     {
         position.x = 876
         // get a pseudo random number
-        let randomY:Int = (randomSource?.nextInt(upperBound: 290))!
+        let randomY:Int = (randomSource?.nextInt(upperBound: 80))! - 140
         position.y = CGFloat(randomY)
         isColliding = false
     }
